@@ -1,5 +1,5 @@
 body {
-	/*background-color: #FFDAB9;	*/
+	/*background-color: #FFD0D0;	*/
 	background-color: #000;
 	-webkit-transition:background-color linear 5s;
 	-moz-transition:background-color linear 5s;
@@ -12,7 +12,7 @@ body {
 	display: none;
 }
 .peach {
-	background-color: #FFDAB9;
+	background-color: #FFD0D0;
 	
 }
 .peach-after {
@@ -25,90 +25,90 @@ body {
 
 @-webkit-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #FFD0D0;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #FFB1B1;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #FFD0D0;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #FFCBCB;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #FFD0D0;
 	}
 }
 @-moz-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #FFD0D0;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #FFB1B1;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #FFD0D0;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #FFCBCB;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #FFD0D0;
 	}
 }
 
 @-o-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #FFD0D0;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #FFB1B1;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #FFD0D0;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #FFCBCB;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #FFD0D0;
 	}
 }
 
 @-ms-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #FFD0D0;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #FFB1B1;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #FFD0D0;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #FFCBCB;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #FFD0D0;
 	}
 }
 
 @keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #FFD0D0;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #FFB1B1;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #FFD0D0;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #FFCBCB;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #FFD0D0;
 	}
 }
 
@@ -1114,6 +1114,9 @@ audio {
 #b7,#b77{
 	background-image: url('b7.png');
 }
+#b8,#b88{
+	background-image: url('b8.png');
+}
 .balloons-rotate-behaviour-one {
 	-webkit-animation: balloons_rotate_one linear 10s infinite;
 	-webkit-transform: rotate(30deg);
@@ -1274,7 +1277,7 @@ audio {
 .message p {
 	font-family: 'Signika', sans-serif;
 	font-size: 30px;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	color: #C4515C;
 	text-shadow: 2px 2px 2px #FFF;
 	display: none;
@@ -1283,8 +1286,8 @@ audio {
 
 .btn-primary {
         border-color: #466baf;
-        padding: 10px;
-        text-transform: uppercase;
+        padding: 15px;
+        text-transform: capitalize;
         font-family: 'Signika', sans-serif;
         font-weight: 700;
         color: #fff;
